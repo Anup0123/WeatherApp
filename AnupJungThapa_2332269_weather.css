@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+     background: url('https://static.vecteezy.com/system/resources/thumbnails/001/626/074/original/timelapse-of-fast-moving-clouds-free-video.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content1{
+    display: flex;
+    align-items: baseline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+input{
+    height: 4vh;
+    width: 30vw;
+    border-radius: 20px;
+    padding: 15px;
+}
+button{
+    font-weight: bold;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: red;
+    cursor: pointer;
+    padding: 5px;
+}
+.search{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+#currentTime{
+    padding-right: 80px;
+    color: aliceblue;
+}
+.content{
+    display: flex;
+    align-items: center;
+    background-color: #0C58B8;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.box1{
+    width: 50vw;
+}
+.box1 h1{
+    font-size: 50px;
+    margin-bottom: 35px;
+    color: red;
+    font-weight: bolder;
+}
+.box1 h2{
+    font-size: 80px;
+    color: aliceblue;
+    
+}
+.temp_value{
+    display: flex;
+    margin-bottom: 60px;
+}
+.extra{
+    display: flex;
+}
+.box1 h3{
+    font-size: 30px;
+}
+.pressure{
+    padding-right: 20px;
+}
+.windspeed{
+    padding-right: 20px;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box2 img{
+    height: 50vh;
+}
+.box2 h2{
+    font-size: 80px;
+    color: aliceblue;
+}
+
+
